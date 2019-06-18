@@ -1,3 +1,4 @@
+require 'ActiveRecord'
 class User < ActiveRecord::Base
 
   def say_name
